@@ -26,7 +26,7 @@ class MyTestCase(unittest.TestCase):
         stats = get_job_statistics(2)
 
         self.assertDictEqual(stats, {
-            "job_name": "Fixture J1",
+            "job_name": "Fixture J2",
             "expected_revenue": 40.00,
             "total_revenue": 0.00,
             "revenue_target_met": False,
@@ -45,7 +45,7 @@ class MyTestCase(unittest.TestCase):
         stats = get_job_statistics(3)
 
         self.assertDictEqual(stats, {
-            "job_name": "Fixture J1",
+            "job_name": "Fixture J3",
             "expected_revenue": 50.00,
             "total_revenue": 1068.38,
             "revenue_target_met": True,
