@@ -60,8 +60,8 @@ class MyTestCase(unittest.TestCase):
                 4: {
                     "order_name": "Fixture O4",
                     "total_revenue": 1038.38,
-                    "average_ecpm": 57.62,
-                    "total_ecpm": 64.90
+                    "average_ecpm": 3.67,
+                    "total_ecpm": 10.70
                 }
             }
         })
